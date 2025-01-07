@@ -5,7 +5,7 @@ const Dotenv=require('dotenv')
 const app=express();
 Dotenv.config();
 
-const PORT=5566;
+const PORT=5577;
 
 mongoclient.connect(process.env.MONGOURL).then(()=>{
     console.log("Database connected successfully")
